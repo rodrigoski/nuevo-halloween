@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: [], // Agrega dominios si usas imágenes externas
+  },
+  // Habilita si usas videos
+  experimental: {
+    serverActions: true,
+    optimizePackageImports: ['lucide-react']
+  }
 };
 
-export default nextConfig;
+module.exports = nextConfig;
