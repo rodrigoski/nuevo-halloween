@@ -247,7 +247,7 @@ export default function Home() {
                           </svg>
                         ),
                         title: "Atracciones",
-                        text: "Casa del Terror, Laberinto Embrujado",
+                        text: "Suaz desnudo",
                         desc: "Experiencias terroríficas para los más valientes."
                       }
                     ].map((card, index) => (
