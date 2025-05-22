@@ -14,12 +14,12 @@ type MediaItem = {
   poster?: string;
 };
 
-// 2. Datos de ejemplo - ¡VERIFICA LAS RUTAS!
+// 2. Datos de ejemplo
 const galleryItems: MediaItem[] = [
   {
     id: 1,
     type: 'image',
-    src: "/tainy.jpg", // Verifica que exista
+    src: "/tainy.jpg", 
     alt: "Foto de la fiesta",
     width: 800,
     height: 600
@@ -27,9 +27,9 @@ const galleryItems: MediaItem[] = [
   {
     id: 2,
     type: 'video',
-    src: "/WhatsApp Video 2025-05-20 at 12.39.24 PM (1).mp4", // Verifica que exista
+    src: "/WhatsApp Video 2025-05-20 at 12.39.24 PM (1).mp4", 
     alt: "Video de la fiesta",
-    poster: "/images/galeria/video-poster.jpg" // Thumbnail (debe ser imagen)
+    poster: "/jalowin.jpg" 
   }
 ];
 
