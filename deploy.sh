@@ -1,0 +1,1 @@
+#!/bin/bashnpm run export
